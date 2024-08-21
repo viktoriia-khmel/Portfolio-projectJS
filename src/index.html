@@ -4,30 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Homework 12</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <form class="form" autocomplete="off">
-        <label>
-          <input class="input" type="text" placeholder="Search images..." />
-        </label>
-        <button class="button" type="submit">Search</button>
-      </form>
-      <div class="loader visually-hidden"></div>
-      <ul class="gallery"></ul>
+    <main>
+      <load src="partials/header.html" />
+      <load src="partials/hero.html" />
+      <load src="partials/about-me.html" />
+      <load src="partials/benefits.html" />
+      <load src="partials/projects.html" />
+      <load src="partials/faq.html" />
+      <load src="partials/covers.html" />
+      <load src="partials/reviews.html" />
+      <load src="partials/footer.html" />
+      <load src="partials/mobile-menu.html" />
+    </main>
 
-      <button type="button" class="btn visually-hidden">Load more</button>
-    </div>
+    <load src="partials/modal-window.html" />
 
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./main.js" defer></script>
   </body>
 </html>
